@@ -1,0 +1,27 @@
+{
+  "name": "webcam",
+  "version": "1.0.0",
+  "description": "webcam filter app",
+  "main": "index.html",
+  "scripts": {
+    "build": "./node_modules/.bin/babel es6 -d js && minify js/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drenther/webCam.git"
+  },
+  "keywords": [
+    "webcam"
+  ],
+  "author": "Soumyajit Pathak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drenther/webCam/issues"
+  },
+  "homepage": "https://github.com/drenther/webCam#readme",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}

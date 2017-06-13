@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Get User Media Code Along!</title>
+	<link type="text/css" rel="stylesheet" href="css/materialize.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="main">
+		<video></video>
+		<div class="photobooth">
+			<canvas></canvas>
+			<div class="controls">
+				<button class="take-photo btn waves-light waves-effect"><i class="fa fa-camera" aria-hidden="true"></i></button>
+				<div class="filters">
+					<h5>Choose filter - </h5>
+					<input type="radio" id="default" value="default" name="filter" checked>
+					<label for="default">Default</label><br>
+					<input type="radio" id="red" value="red" name="filter">
+					<label for="red">Red Filter</label><br>
+					<input type="radio" id="green" value="green" name="filter">
+					<label for="green">Green Filter</label><br>
+					<input type="radio" id="blue" value="blue" name="filter">
+					<label for="blue">Blue Filter</label><br>
+					<input type="radio" id="hal" value="hal" name="filter">
+					<label for="hal">Hallucination Filter</label><br>
+				</div>
+				<br>
+				*click on images in the strip below to download them
+			</div>
+			
+		</div>
+		<div class="strip"></div>
+	</div>
+
+  <audio class="snap" src="res/snap.mp3" hidden></audio>
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="js/materialize.min.js"></script>
+  <script src="js/index.min.js"></script>
+
+</body>
+</html>
